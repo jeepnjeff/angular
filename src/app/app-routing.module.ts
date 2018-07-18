@@ -1,11 +1,15 @@
-import { ContactComponent } from './contact/contact.component';
-import { NgModule, Component } from '@angular/core';
+
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent} from './home/home.component';
+import { HeroComponent } from './hero/hero.component';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
-  { path: 'contact', component: ContactComponent }
+  { path: 'hero', component: HeroComponent},
+  { path: 'hero/:id', component: HeroDetailComponent }
 ];
 
 @NgModule({

@@ -1,3 +1,4 @@
+// a lot of our logic lives here
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,8 +10,8 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  greeting = 'Welcome to my angular app!';
-  introduction = 'A very large angular app';
+  greeting = 'Welcome to my Angular App';
+  introduction = 'A very large Angular application';
   text = '';
   list = ['one', 'two', 'three', 'four', 'five'];
 
