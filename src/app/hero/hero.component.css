@@ -8,11 +8,10 @@
 }
 
 .hero {
-  background-color: blue;
-  color: white;
+  background-color: #4388ff;
 }
 
-.villain {
+.villian {
   background-color: black;
   color: white;
 }
